@@ -6,6 +6,7 @@
   --color-secondary: #f5ebed;
   --color-text-seccion-1: #b5aeb0;
   --color-text-sobre-mi: #ccc4c6;
+  --color-text-educacion: #9b9597;
 
   --color-border: #212121;
 
@@ -217,6 +218,62 @@ header {
 
         span {
           color: var(--color-primary);
+        }
+      }
+    }
+  }
+}
+
+/* sección 3 */
+
+.seccion-3 {
+  background-color: var(--background-primary);
+  padding: 6rem 0;
+
+  .container-seccion-3 {
+    width: 60%;
+    margin: auto;
+
+    h3 {
+      text-align: center;
+      color: var(--color-secondary);
+      font-size: 2.5rem;
+    }
+
+    .container-cards-educacion {
+      display: flex;
+      flex-direction: column;
+      gap: 1.5rem;
+
+      .card-educacion {
+        display: flex;
+        justify-content: space-between;
+        align-items: start;
+
+        padding: 1rem;
+        border-left: 2px solid var(--color-primary);
+        transition: 0.3s ease-in-out;
+
+        .card-educacion-title {
+          h4 {
+            color: var(--color-primary);
+            font-size: 1.5rem;
+            font-weight: 500;
+          }
+
+          p {
+            color: var(--color-text-educacion);
+          }
+        }
+
+        .card-educacion-edad {
+          p {
+            color: var(--color-text-educacion);
+          }
+        }
+
+        &:hover {
+          background-color: var(--background-secondary);
         }
       }
     }

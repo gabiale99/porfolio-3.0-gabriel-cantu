@@ -465,3 +465,41 @@ header {
     }
   }
 }
+
+/* Footer */
+
+footer {
+  background-color: var(--background-primary);
+  padding: 2rem 0;
+
+  .container-footer {
+    width: 60%;
+    margin: auto;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .container-copy {
+      p {
+        color: var(--color-text-educacion);
+      }
+    }
+
+    .container-links {
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+
+      a {
+        text-decoration: none;
+        color: var(--color-text-educacion);
+        transition: 0.3s ease-in-out;
+
+        &:hover {
+          color: var(--color-primary);
+        }
+      }
+    }
+  }
+}

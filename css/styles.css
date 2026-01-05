@@ -4,6 +4,7 @@
 
   --color-primary: #00b395;
   --color-secondary: #f5ebed;
+  --color-text-seccion-1: #b5aeb0;
 
   --color-border: #212121;
 
@@ -25,7 +26,7 @@ body {
 header {
   background-color: var(--background-primary);
   padding: 1rem 0;
-  border-bottom: var(--color-border);
+  border-bottom: 1px solid var(--color-border);
 
   .container-header {
     width: 90%;
@@ -69,6 +70,89 @@ header {
             }
           }
         }
+      }
+    }
+  }
+}
+
+.seccion-1 {
+  background-color: var(--background-primary);
+  padding: 6rem 0;
+
+  .container-seccion-1 {
+    width: 60%;
+    margin: auto;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20rem;
+
+    .container-seccion-text {
+      display: flex;
+      flex-direction: column;
+
+      h2 {
+        color: var(--color-secondary);
+        font-size: 3.5rem;
+
+        span {
+          color: var(--color-primary);
+        }
+      }
+
+      p {
+        color: var(--color-text-seccion-1);
+        font-size: 1.2rem;
+        padding: 2rem 0;
+      }
+
+      .container-buttons {
+        display: flex;
+        gap: 1rem;
+
+        a {
+          text-decoration: none;
+          padding: 0.8rem 1.3rem;
+          border-radius: 5px;
+        }
+
+        .button-contactame {
+          display: flex;
+          align-items: center;
+          gap: 0.3rem;
+
+          background-color: var(--color-primary);
+          color: var(--background-primary);
+          svg {
+            transition: 0.3s ease-in-out;
+          }
+
+          &:hover {
+            background-color: #009b81;
+
+            svg {
+              transform: translateX(4px);
+            }
+          }
+        }
+
+        .button-proyectos {
+          border: 1px solid var(--color-border);
+          color: var(--color-secondary);
+
+          &:hover {
+            background-color: #181818;
+          }
+        }
+      }
+    }
+
+    .container-img-perfil {
+      img {
+        width: 20rem;
+        border: 1px solid var(--color-primary);
+        border-radius: 10px;
       }
     }
   }

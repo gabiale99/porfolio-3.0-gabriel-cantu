@@ -5,28 +5,50 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./css/styles.css" />
     <title>CV Gabriel Cantú</title>
+    <script src="./js/script.js" defer></script>
   </head>
   <body>
     <header>
       <div class="container-header">
-        <div class="conteiner-nombre">
-          <a href="./index.html">
-            <h1>Gabriel Alejandro Cantú</h1>
-          </a>
+        <div class="container-menu-responsive">
+          <div class="conteiner-nombre">
+            <a href="./index.html">
+              <h1>Gabriel Alejandro Cantú</h1>
+            </a>
+          </div>
+          <div class="container-menu">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              class="icon icon-tabler icons-tabler-outline icon-tabler-menu-2"
+            >
+              <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+              <path d="M4 6l16 0" />
+              <path d="M4 12l16 0" />
+              <path d="M4 18l16 0" />
+            </svg>
+          </div>
         </div>
         <nav>
           <ul>
-            <li><a href="#">Inicio</a></li>
-            <li><a href="#">Sobre mí</a></li>
-            <li><a href="#">Estudios</a></li>
-            <li><a href="#">Proyectos</a></li>
-            <li><a href="#">Skills</a></li>
-            <li><a href="#">Contacto</a></li>
+            <li><a href="#seccion-1">Inicio</a></li>
+            <li><a href="#seccion-2">Sobre mí</a></li>
+            <li><a href="#seccion-3">Estudios</a></li>
+            <li><a href="#seccion-4">Proyectos</a></li>
+            <li><a href="#seccion-5">Skills</a></li>
+            <li><a href="#seccion-6">Contacto</a></li>
           </ul>
         </nav>
       </div>
     </header>
-    <section class="seccion-1">
+    <section class="seccion-1" id="seccion-1">
       <div class="container-seccion-1">
         <div class="container-seccion-text">
           <h2>Hola, soy un <span>Desarrollador Web</span></h2>
@@ -34,7 +56,7 @@
             Creo experiencias web modernas, responsivas y de alto rendimiento
           </p>
           <div class="container-buttons">
-            <a class="button-contactame" href="#"
+            <a class="button-contactame" href="#seccion-6"
               >Contactame
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -53,7 +75,7 @@
                 <path d="M15 16l4 -4" />
                 <path d="M15 8l4 4" /></svg
             ></a>
-            <a class="button-proyectos" href="#">Ver proyectos</a>
+            <a class="button-proyectos" href="#seccion-4">Ver proyectos</a>
           </div>
         </div>
         <div class="container-img-perfil">
@@ -64,7 +86,7 @@
         </div>
       </div>
     </section>
-    <section class="seccion-2">
+    <section class="seccion-2" id="seccion-2">
       <h3>Sobre mí</h3>
       <div class="container-seccion-2">
         <div class="img-sobre-mi">
@@ -98,7 +120,7 @@
         </div>
       </div>
     </section>
-    <section class="seccion-3">
+    <section class="seccion-3" id="seccion-3">
       <div class="container-seccion-3">
         <h3>Educación</h3>
         <div class="container-cards-educacion">
@@ -141,7 +163,7 @@
         </div>
       </div>
     </section>
-    <section class="seccion-4">
+    <section class="seccion-4" id="seccion-4">
       <div class="container-seccion-4">
         <h3>Proyectos destacados</h3>
         <div class="grid-card-proyectos">
@@ -176,7 +198,7 @@
         </div>
       </div>
     </section>
-    <section class="seccion-5">
+    <section class="seccion-5" id="seccion-5">
       <div class="container-seccion-5">
         <h3>Skills & Tecnologías</h3>
         <div class="container-card-skills">
@@ -260,7 +282,7 @@
         </div>
       </div>
     </section>
-    <section class="seccion-6">
+    <section class="seccion-6" id="seccion-6">
       <div class="container-seccion-6">
         <h3>Contacto</h3>
         <p class="text">Formas de contacto</p>

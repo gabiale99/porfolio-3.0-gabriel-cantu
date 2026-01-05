@@ -5,6 +5,7 @@
   --color-primary: #00b395;
   --color-secondary: #f5ebed;
   --color-text-seccion-1: #b5aeb0;
+  --color-text-sobre-mi: #ccc4c6;
 
   --color-border: #212121;
 
@@ -22,6 +23,8 @@ body {
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
     Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
+
+/* Header */
 
 header {
   background-color: var(--background-primary);
@@ -74,6 +77,8 @@ header {
     }
   }
 }
+
+/* Sección 1 */
 
 .seccion-1 {
   background-color: var(--background-primary);
@@ -153,6 +158,52 @@ header {
         width: 20rem;
         border: 1px solid var(--color-primary);
         border-radius: 10px;
+      }
+    }
+  }
+}
+
+/* Sección 2 */
+
+.seccion-2 {
+  background-color: var(--background-secondary);
+  padding: 6rem 0;
+
+  h3 {
+    text-align: center;
+    color: var(--color-secondary);
+    font-size: 2.5rem;
+  }
+
+  .container-seccion-2 {
+    width: 60%;
+    margin: auto;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+
+    .img-sobre-mi {
+      img {
+        width: 20rem;
+        border-radius: 10px;
+      }
+    }
+
+    .sobre-mi-texts {
+      display: flex;
+      flex-direction: column;
+      gap: 1.2rem;
+
+      p {
+        font-size: 1.2rem;
+        line-height: 1.4;
+        color: var(--color-text-sobre-mi);
+
+        span {
+          color: var(--color-primary);
+        }
       }
     }
   }

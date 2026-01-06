@@ -25,7 +25,7 @@ const datosCard = [
     img: "proyecto-1.png",
     titulo: "E-commerce",
     descripcion:
-      "Desarrollé una plataforma de comercio electrónico completa como proyecto académico...",
+      "Desarrollé una plataforma de comercio electrónico completa como proyecto académico",
     tecnologia1: "HTML",
     tecnologia2: "CSS",
     tecnologia3: "JavaScript",
@@ -36,7 +36,7 @@ const datosCard = [
     img: "proyecto-2.png",
     titulo: "Mundo dinosaurio",
     descripcion:
-      "Desarrollé una plataforma de comercio electrónico completa como proyecto académico...",
+      "Proyecto web desarrollado como trabajo académico y como iniciativa personal para profundizar en el estudio del mundo prehistórico. La aplicación permite explorar información detallada sobre los distintos tipos de dinosaurios, los períodos geológicos, teorías de extinción y los principales descubrimientos paleontológicos.",
     tecnologia1: "HTML",
     tecnologia2: "CSS",
     tecnologia3: "JavaScript",
@@ -47,7 +47,7 @@ const datosCard = [
     img: "proyecto-3.png",
     titulo: "subscriptions-tracker",
     descripcion:
-      "Desarrollé una plataforma de comercio electrónico completa como proyecto académico...",
+      "Aplicación web desarrollada como proyecto personal con el objetivo de poner en práctica y consolidar mis conocimientos en HTML, CSS y JavaScript. La plataforma permite llevar un control organizado de suscripciones, facilitando el registro, visualización y seguimiento de gastos mensuales.",
     tecnologia1: "HTML",
     tecnologia2: "CSS",
     tecnologia3: "JavaScript",
@@ -58,7 +58,7 @@ const datosCard = [
     img: "proyecto-4.png",
     titulo: "Play Store de video Juegos",
     descripcion:
-      "Desarrollé una plataforma de comercio electrónico completa como proyecto académico...",
+      "Proyecto desarrollado en React con el objetivo de practicar la creación de interfaces modernas y dinámicas, simulando la vista principal de una tienda de videojuegos.",
     tecnologia1: "HTML",
     tecnologia2: "CSS",
     tecnologia3: "JavaScript",
@@ -70,7 +70,7 @@ const datosCard = [
     img: "proyecto-5.png",
     titulo: "3 en linea",
     descripcion:
-      "Desarrollé una plataforma de comercio electrónico completa como proyecto académico...",
+      "Proyecto desarrollado con HTML, CSS y JavaScript para poner en práctica los fundamentos del desarrollo web a través de la creación de un juego clásico totalmente funcional. La aplicación permite a dos jugadores competir en turnos, detectando automáticamente las condiciones de victoria y empate, con una interfaz clara e intuitiva.",
     tecnologia1: "HTML",
     tecnologia2: "CSS",
     tecnologia3: "JavaScript",

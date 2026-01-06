@@ -542,6 +542,152 @@ header {
   }
 }
 
+/* Dialog */
+
+.dialog {
+  dialog {
+    z-index: 9;
+    width: 40%;
+    margin: auto;
+    background-color: var(--background-primary);
+    border: 1px solid var(--color-primary);
+    border-radius: 10px;
+    overflow: hidden;
+
+    opacity: 0;
+    transform: scale(0.9) translateY(-20px);
+    transition: opacity 0.25s ease, transform 0.25s ease;
+
+    &.mostrar {
+      opacity: 1;
+      transform: scale(1) translateY(0);
+    }
+
+    img {
+      width: 100%;
+      position: relative;
+    }
+
+    .cerrar {
+      background-color: #252a2b;
+      color: var(--color-secondary);
+      padding: 0.3rem;
+      border-radius: 50%;
+      cursor: pointer;
+
+      height: 2.5rem;
+      width: 2.5rem;
+
+      position: absolute;
+      top: 10px;
+      left: 700px;
+
+      transition: 0.3s ease-in-out;
+
+      &:hover {
+        background-color: #050505;
+      }
+    }
+
+    .container-text-dialog {
+      padding: 1rem;
+
+      h3 {
+        font-size: 1.3rem;
+        color: var(--color-primary);
+        padding-bottom: 1rem;
+      }
+
+      p {
+        color: var(--color-secondary);
+        line-height: 1.4;
+      }
+
+      h4 {
+        color: var(--color-primary);
+        padding: 1rem 0;
+      }
+
+      .container-tecnologias {
+        display: flex;
+        gap: 1rem;
+
+        span {
+          padding: 0.3rem 0.6rem;
+          background-color: #061a15;
+          color: var(--color-primary);
+          border: 1px solid var(--color-primary);
+          border-radius: 10px;
+        }
+      }
+
+      .conteiner-buttons {
+        display: flex;
+        gap: 1rem;
+        padding: 1rem 0;
+
+        a {
+          display: flex;
+          align-items: center;
+          gap: 1rem;
+          padding: 0.6rem 3rem;
+          text-decoration: none;
+          border: 1px solid transparent;
+          border-radius: 10px;
+        }
+
+        .button-codigo {
+          background-color: #061a15;
+          color: var(--color-primary);
+          transition: 0.3s ease-in-out;
+
+          &:hover {
+            background-color: #0a2c23;
+          }
+        }
+
+        .button-demo {
+          background-color: var(--color-primary);
+          color: var(--background-primary);
+          transition: 0.3s ease-in-out;
+
+          &:hover {
+            background-color: #009b81;
+          }
+        }
+      }
+    }
+  }
+}
+
+/* Dialog Móvil */
+
+@media screen and (max-width: 430px) {
+  .dialog {
+    dialog {
+      width: 90%;
+
+      .cerrar {
+        left: 330px;
+      }
+    }
+  }
+}
+
+/* Dialog Tablet */
+
+@media screen and (min-width: 431px) and (max-width: 1366px) {
+  .dialog {
+    dialog {
+      width: 60%;
+
+      .cerrar {
+        left: 560px;
+      }
+    }
+  }
+}
+
 /* Sección 4 Móvil */
 
 @media screen and (max-width: 430px) {
